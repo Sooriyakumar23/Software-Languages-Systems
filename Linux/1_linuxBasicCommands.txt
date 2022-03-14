@@ -1,0 +1,49 @@
+pwd
+cd ..
+
+~			/home/sooriyakumar
+
+mkdir FOLDER
+mkdir .FOLDER
+
+ls
+ls -a
+ls -rt
+ls -l
+ll
+
+rmdir
+rm -rf
+
+clear
+
+vi FILE.txt
+		i
+		Esc
+		:wq
+		!
+		/
+		Enter
+
+
+COMMAND --help
+man COMMAND
+
+
+cp SOURCE DESTINATION			copy file
+cp -r SOURCE DESTINATION		copy directory
+mv OLDNAME NEWNAME			rename & move
+rm FILENAME				delete
+
+chmod 777 FILE.txt			rwxrwxrwx
+400	<= Root
+200	<= Root
+100	<= Root
+
+040	<= Group
+020	<= Group
+010	<= Group
+
+004	<= Others
+002	<= Others
+001	<= Others

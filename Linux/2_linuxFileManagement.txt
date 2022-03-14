@@ -1,0 +1,39 @@
+		*----- touch => only to create, can not be overwritten -----*
+
+touch FILENAME					<----- create a file
+touch FILENAME1, FILENAME2, FILENAME3		<----- create more files
+
+
+		*----- vi => create & editable, can be overwritten-----*
+
+1. vi FILENAME					<----- open FILENAME in vim editor
+2. i						<----- to insert text
+3. Esc						<----- to go command mode
+4. :wq						<----- write and quit
+5. Enter					<----- exit to editor to cli
+
+
+		*----- cat => create & editable, can be overwritten-----*
+
+1. cat FILENAME					<----- show contents in the file
+2. cat > FILENAME				<----- overwrite content to the file
+3. cat >> FILENAME				<----- append content to the file
+4. cat FILENAME1 FILENAME2 > FILENAME3		<----- move contents of other files to a file
+
+		*----- tac -----*
+tac FILENAME					<----- reverse lines in a FILE (opposite of cat)
+
+		*----- more & less-----*
+more FILENAME					<----- opens a separate window
+--More--(99%) :- 99% of content is shown
+
+less FILENAME
+
+
+		*----- head & tail COMMANDs -----*
+
+head FILENAME					<----- First 10 lines
+head -n 3 FILENAME				<----- First 3 lines
+
+tail FILENAME					<----- Last 10 lines
+tail -n 4 FILENAME				<----- Last 4 lines

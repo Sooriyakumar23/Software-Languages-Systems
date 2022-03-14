@@ -1,0 +1,38 @@
+#----- sudo -----#
+
+* sudo = Super User DO = Highest(root) privileges
+
+* windows: Administrator, Linux: Root.
+
+* eg:-
+sudo apt update
+sudo apt install tree
+sudo apt-get install tree
+
+* Sudo asks password for one time in a session.
+
+
+#----- User management -----#
+
+* sudo su				<----- Gives the root access
+* cat /etc/passwd			<----- Total users and their details
+* su USERNAME				<----- su = switch user
+* id					<----- uid(user id) = 1000(sooriyakumar), gid(group id) = 1000(sooriyakumar), groups.
+* groups
+* sudo adduser USERNAME			<----- adding a new user [newer version-good]
+* sudo useradd USERNAME			<----- adding a new user [older version]
+* passwd				<----- Changing logged in user's password
+* sudo passwd OTHERUSER			<----- Changing other not logged user's password
+* sudo deluser USER			<----- Deleting a user
+
+
+#----- some other commands ------#
+tree
+neofetch
+date
+apt install zip
+ps					<----- process
+kill PID				<----- Killing the process which has the process id as PID
+ifconfig
+whoami
+w
