@@ -1,0 +1,46 @@
+stages
+    (1) working directory
+    (2) staging area
+    (3) local repo
+    (4) remote repo
+git add file-name
+    * 1 -> 2
+git commit
+    * Opens a file in the text editor where we have to write the commit message(In addition we can write a description)
+    * 2 -> 3
+git commit -m "commit-message"
+    * 2 -> 3
+git init
+    * to instantiate git project
+git clone url-link
+    * to get the remote repo files to local
+git pull
+    * to update the local repo with remote repo
+git diff --cached
+    * Show differences between (2) & (3)
+git diff
+    * Show difference between (1) & (2)
+git restore --stages
+git restore
+git log
+git log --graph
+git log --oneline
+git log -p
+git show check-sum
+git log --grep='commit-message'
+git merge branchA branchB
+git checkout check-sum
+spacebar
+Q
+git providers
+    * Git Hub
+    * Git Lab
+    * Bit Bucket
+git-scm
+    * Website by GIT for downloads and other purposes
+    * Also includes possible GUI softwares
+Created by Linus Torvalds who also created Linux
+    * Reason: To collaborate with others but he is an introvert
+Benefits of Git
+    * Version Control System / VCS
+    * To collaborate with other developers
