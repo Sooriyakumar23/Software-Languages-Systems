@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        .col-2{
+            background-color: yellow;
+            border: solid black 1px;
+        }
+        .col-6{
+            background-color: yellowgreen;
+            border: solid black 1px;
+        }
+        .col{
+            background-color: lightgoldenrodyellow;
+            border: solid black 1px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <div class="container-md border">
+        <div class="row">
+            <div class="col-2">Col 2</div>
+            <div class="col-6">Col 6</div>
+            <div class="col">Col Auto (12 - 2 - 6)</div>
+        </div>
+
+        <div class="row"> <!--3 Use Cases: >Large, Large-Medium, <Medium-->
+            <div class="col-lg-9 col-md-6 border">Col 9 - 6 - Full</div>
+            <div class="col-lg-3 col-md-6 border">Col 3 - 6 - Full</div>
+        </div>
+    </div>
+</body>
+</html>

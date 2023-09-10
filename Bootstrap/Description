@@ -1,0 +1,49 @@
+What is Bootstrap?
+    * Most popular front end framework
+    * Used for building mobile responsive web applications
+    * HTML, CSS, JS
+
+Why Bootstrap?
+    * Increase development speed
+    * Assure responsiveness
+    * Prevent repetition between projects
+    * Add consistency
+    * Ensure cross browser compatibility
+    * Large community
+    * Customizable
+
+Bootstrap Components & helpers
+    - Alerts
+    - Buttons
+    - Budgets
+    - Cards
+    - Navbars
+    - Pagination
+    -.........................
+
+Installation
+    * M1:- Download code Manually
+    * M2:- CDN link
+    * M3: Install using NPM commands
+
+# Reason for becoming so famous: Due to GRID system
+
+* 'Container' is the first thing we need to start with if we want to use the Bootstrap Grid System
+    - container: Has some left & right margins
+    - container-fluid: No left or right margins
+    - container-breakpoint
+        - container-md
+            - Above md:- act as container
+            - Below md:- act as container-fluid
+        - container-lg
+            - above lg:- act as container
+            - below lg:- act as container-fluid
+        ............
+    - container -> row -> column
+
+* my => margin in y / vertical direction
+* mx => margin in x / horizontal direction
+
+* Gutter
+    - gx-1
+    - gy-5
